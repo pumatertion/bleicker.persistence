@@ -1,0 +1,20 @@
+{
+	"name": "bleicker/persistence",
+	"require": {
+		"doctrine/orm": "~2.5"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "*"
+	},
+	"authors": [
+		{
+			"name": "Carsten Bleicker",
+			"email": "carsten@bleicker.de"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Bleicker\\Persistence\\": "src"
+		}
+	}
+}
