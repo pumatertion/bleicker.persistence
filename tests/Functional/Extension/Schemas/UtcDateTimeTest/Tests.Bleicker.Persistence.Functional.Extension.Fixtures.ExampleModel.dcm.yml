@@ -1,0 +1,10 @@
+Tests\Bleicker\Persistence\Functional\Extension\Fixtures\ExampleModel:
+  type: entity
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    dateTime:
+      type: datetime
